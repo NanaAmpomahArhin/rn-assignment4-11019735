@@ -1,14 +1,9 @@
-import { StyleSheet, Text, View } from "react-native";
-
+import { View } from "react-native";
+import ProfileContainer from "./components/ProfileContainer";
 export default function App() {
-  return <View style={styles.container}></View>;
+  return (
+    <View>
+      <ProfileContainer />
+    </View>
+  );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
