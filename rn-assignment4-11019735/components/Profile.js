@@ -13,20 +13,21 @@ const styles = StyleSheet.create({
   container: {
     width: 254,
     height: 55,
-    Top: 64,
-    Left: 24,
+    left: 24,
   },
   userName: {
     font: "Poppins",
     fontWeight: "bold",
     fontSize: 24,
     lineHeight: 36,
+    color: "#0D0D26",
   },
   userEmail: {
     font: "Poppins",
     fontWeight: 400,
     fontSize: 20,
     lineHeight: 24,
+    color: "#95969D",
   },
 });
 
