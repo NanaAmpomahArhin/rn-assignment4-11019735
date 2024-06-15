@@ -6,6 +6,7 @@ export const featuredJobs = [
     location: "Accra,Ghana",
     salary: "$180,00",
     image: require("./../assets/facebook.png"),
+    color: "#4169E1",
   },
   {
     id: 1,
@@ -14,5 +15,6 @@ export const featuredJobs = [
     location: "Accra,Ghana",
     salary: "$160,00",
     image: require("./../assets/google.png"),
+    color: "#000033",
   },
 ];
