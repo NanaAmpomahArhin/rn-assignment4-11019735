@@ -2,9 +2,8 @@ import { StyleSheet } from "react-native";
 
 export const featuredJobsStyles = StyleSheet.create({
   container: {
-    flexDirection: "row",
     height: 400,
-    top: 180,
+    top: 120,
     left: 80,
   },
   cardWrapper: {
@@ -14,6 +13,7 @@ export const featuredJobsStyles = StyleSheet.create({
     backgroundColor: "#34A853",
     marginRight: 15,
     position: "relative",
+    top: 0,
   },
   imageAndRoleContainer: {
     flexDirection: "row",
@@ -44,15 +44,15 @@ export const featuredJobsStyles = StyleSheet.create({
     flexDirection: "column",
   },
   role: {
-    fontFamiliy: "Poppins",
+    fontFamiliy: "Sans-serif",
     fontWeight: 600,
     fontSize: 16,
-    lineHeight: 20.8,
+    lineHeight: 30.8,
     color: "white",
   },
   organization: {
-    fontFamily: "Poppins",
-    fontWeight: 400,
+    fontFamily: "Sans-serif",
+    fontWeight: "medium",
     fontSize: 14,
     color: "white",
     opacity: 0.75,
@@ -67,13 +67,13 @@ export const featuredJobsStyles = StyleSheet.create({
     left: 20,
   },
   salary: {
-    font: "Poppins",
+    font: "Sans-serif",
     fontWeight: 500,
     fontSize: 15,
     color: "white",
   },
   location: {
-    font: "Poppins",
+    font: "Sans-serif",
     fontWeight: 500,
     fontSize: 15,
     color: "white",
