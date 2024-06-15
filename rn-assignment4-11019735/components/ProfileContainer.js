@@ -14,9 +14,10 @@ export default function ProfileContainer() {
 const styles = StyleSheet.create({
   container: {
     top: 20,
-    width: 1000,
+    width: 350,
     height: 70,
     flexDirection: "row",
-    justifyContent: "space-between",
+
+    left: 50,
   },
 });
