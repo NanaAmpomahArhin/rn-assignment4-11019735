@@ -1,12 +1,16 @@
-import { FlatList, View, Text, Image } from "react-native";
+import { FlatList, View, Text, Image, StyleSheet } from "react-native";
 
-export default function JobsContainer({ data, styles }) {
+export default function JobsContainer({ data, styles, isHorizontal, title }) {
   return (
     <View style={styles.container}>
+      <View style={defaultStyles.headerContainer}>
+        <Text style={defaultStyles.titleWrapper}>{title}</Text>
+        <Text style={defaultStyles.seeAllWrapper}>See all</Text>
+      </View>
       <FlatList
         data={data}
         renderItem={({ item }) => (
-          <View style={styles.cardWrapper}>
+          <View style={[styles.cardWrapper, { backgroundColor: item.color }]}>
             <View style={styles.imageAndRoleContainer}>
               <View style={styles.imageContainer}>
                 {" "}
@@ -24,9 +28,34 @@ export default function JobsContainer({ data, styles }) {
           </View>
         )}
         keyExtractor={(item) => item.id}
-        horizontal
+        horizontal={isHorizontal}
         showsHorizontalScrollIndicator={false}
       />
     </View>
   );
 }
+
+const defaultStyles = StyleSheet.create({
+  headerContainer: {
+    width: 310,
+    height: 30,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 0,
+    top: -10,
+  },
+  titleWrapper: {
+    fontFamily: "Sans-serif",
+    fontWeight: "bold",
+    fontSize: 16,
+    color: "black",
+  },
+  seeAllWrapper: {
+    width: 42,
+    height: 21,
+    fontFamily: "Sans-serif",
+    fontWeight: 400,
+    fontSize: 13,
+    color: "#95969D",
+  },
+});
