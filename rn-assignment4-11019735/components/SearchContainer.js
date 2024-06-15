@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   placeholderText: {
-    fontFamily: "Poppins",
+    fontFamily: "Sans-serif",
     fontWeight: 400,
     fontSize: 15,
     lineHeight: 22.5,
