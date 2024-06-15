@@ -1,0 +1,82 @@
+import { StyleSheet } from "react-native";
+
+export const popularJobsStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    top: 0,
+    left: 80,
+  },
+  cardWrapper: {
+    width: 327,
+    height: 74,
+    borderRadius: 20,
+    backgroundColor: "white",
+    top: 0,
+    marginBottom: 20,
+    marginTop: 0,
+    position: "relative",
+  },
+  imageAndRoleContainer: {
+    flexDirection: "row",
+    width: 180,
+    height: 43,
+    position: "absolute",
+    top: 15,
+    left: 28,
+  },
+  imageContainer: {
+    width: 46,
+    height: 46,
+    borderRadius: 12,
+    backgroundColor: "white",
+    position: "relative",
+    marginRight: 20,
+  },
+  image: {
+    width: 41.26,
+    height: 43,
+    position: "absolute",
+  },
+  roleAndOrganizationContainer: {
+    width: 145,
+    height: 46,
+    flexDirection: "column",
+  },
+  role: {
+    fontFamiliy: "Sans-serif",
+    fontWeight: 600,
+    fontSize: 14,
+    marginBottom: 3,
+    color: "#0D0D26",
+  },
+  organization: {
+    fontFamily: "Sans-serif",
+    fontWeight: 400,
+    fontSize: 13,
+    color: "#0D0D26",
+    opacity: 0.5,
+  },
+  salaryAndLocationContainer: {
+    flexDirection: "column",
+    width: 100,
+    height: 43,
+    alignItems: "flex-end",
+    position: "absolute",
+    top: 15,
+    left: 200,
+  },
+  salary: {
+    font: "Sans-serif",
+    fontWeight: 500,
+    fontSize: 12,
+    color: "#0D0D26",
+    marginBottom: 3,
+  },
+  location: {
+    font: "Sans-serif",
+    fontWeight: 400,
+    fontSize: 13,
+    color: "#0D0D26",
+    opacity: 0.5,
+  },
+});
