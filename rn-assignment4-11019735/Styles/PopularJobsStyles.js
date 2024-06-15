@@ -66,14 +66,14 @@ export const popularJobsStyles = StyleSheet.create({
     left: 200,
   },
   salary: {
-    font: "Sans-serif",
+    fontFamily: "Sans-serif",
     fontWeight: 500,
     fontSize: 12,
     color: "#0D0D26",
     marginBottom: 3,
   },
   location: {
-    font: "Sans-serif",
+    fontFamily: "Sans-serif",
     fontWeight: 400,
     fontSize: 13,
     color: "#0D0D26",
