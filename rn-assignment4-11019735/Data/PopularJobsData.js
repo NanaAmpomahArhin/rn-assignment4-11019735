@@ -5,7 +5,7 @@ export const popularJobs = [
     organization: "Burger King",
     location: "Los Angeles,US",
     salary: "$96,000/y",
-    image: require("./../assets/burgerKing.png"),
+    image: require("./../assets/burgerking.png"),
   },
   {
     id: 1,
