@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: "column",
     flex: 1,
-    top: 80,
-    left: 24,
+    top: 40,
+    left: 16,
   },
   appName: {
     fontFamily: "sans-serif",

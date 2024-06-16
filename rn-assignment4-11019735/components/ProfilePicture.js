@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
   profilePictureContainer: {
     width: 54,
     height: 54,
-    left: 30,
+    left: 1,
     position: "relative",
   },
   image: {

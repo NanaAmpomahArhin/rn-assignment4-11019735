@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     width: 350,
     height: 70,
     flexDirection: "row",
-    left: 50,
+    left: 45,
   },
 });

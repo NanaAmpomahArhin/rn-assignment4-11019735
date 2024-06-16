@@ -9,7 +9,7 @@ import { popularJobsStyles } from "../Styles/PopularJobsStyles";
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
+    <View style={styles.wrapper}>
       <ProfileContainer />
       <SearchContainer />
       <JobsContainer
@@ -29,9 +29,10 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  wrapper: {
     flex: 1,
     flexDirection: "column",
-    backgroundColor: "#FAFAFD",
+    left: -55,
+    top: -17,
   },
 });

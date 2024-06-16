@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   container: {
     width: 254,
     height: 55,
-    left: 24,
+    left: 16,
   },
   userName: {
     fontFamily: "sans-serif",

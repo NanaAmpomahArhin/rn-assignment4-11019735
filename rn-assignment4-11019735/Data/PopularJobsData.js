@@ -6,6 +6,7 @@ export const popularJobs = [
     location: "Los Angeles,US",
     salary: "$96,000/y",
     image: require("./../assets/burgerking.png"),
+    color: "white",
   },
   {
     id: 1,
@@ -14,6 +15,7 @@ export const popularJobs = [
     location: "Florida,US",
     salary: "$84,000/y",
     image: require("./../assets/beats.png"),
+    color: "white",
   },
   {
     id: 2,
@@ -22,5 +24,6 @@ export const popularJobs = [
     location: "Florida,US",
     salary: "$86,000/y",
     image: require("./../assets/facebook.png"),
+    color: "white",
   },
 ];
