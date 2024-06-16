@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   placeholderText: {
-    fontFamily: "Sans-serif",
-    fontWeight: 400,
+    fontFamily: "sans-serif",
+    fontWeight: "400",
     fontSize: 15,
     lineHeight: 22.5,
     color: "#95969D",

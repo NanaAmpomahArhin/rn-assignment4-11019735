@@ -16,15 +16,15 @@ const styles = StyleSheet.create({
     left: 24,
   },
   userName: {
-    font: "Poppins",
+    fontFamily: "sans-serif",
     fontWeight: "bold",
     fontSize: 24,
     lineHeight: 36,
     color: "#0D0D26",
   },
   userEmail: {
-    font: "Poppins",
-    fontWeight: 400,
+    font: "sans-serif",
+    fontWeight: "400",
     fontSize: 20,
     lineHeight: 24,
     color: "#95969D",

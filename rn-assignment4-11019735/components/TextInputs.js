@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
     fontFamily: "sans-serif",
     fontSize: 14,
     borderColor: "#AFB0B6",
-    fontWeight: 500,
+    fontWeight: "500",
     borderRadius: 10,
     borderWidth: 1,
     paddingHorizontal: 15,

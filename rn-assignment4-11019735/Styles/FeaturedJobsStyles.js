@@ -4,7 +4,7 @@ export const featuredJobsStyles = StyleSheet.create({
   container: {
     height: 400,
     top: 120,
-    left: 80,
+    left: 70,
   },
   cardWrapper: {
     width: 280,
@@ -44,14 +44,14 @@ export const featuredJobsStyles = StyleSheet.create({
     flexDirection: "column",
   },
   role: {
-    fontFamiliy: "Sans-serif",
-    fontWeight: 600,
+    fontFamiliy: "sans-serif",
+    fontWeight: "600",
     fontSize: 16,
     lineHeight: 30.8,
     color: "white",
   },
   organization: {
-    fontFamily: "Sans-serif",
+    fontFamily: "sans-serif",
     fontWeight: "medium",
     fontSize: 14,
     color: "white",
@@ -67,14 +67,14 @@ export const featuredJobsStyles = StyleSheet.create({
     left: 20,
   },
   salary: {
-    font: "Sans-serif",
-    fontWeight: 500,
+    font: "sans-serif",
+    fontWeight: "500",
     fontSize: 15,
     color: "white",
   },
   location: {
-    font: "Sans-serif",
-    fontWeight: 500,
+    font: "sans-serif",
+    fontWeight: "500",
     fontSize: 15,
     color: "white",
   },
