@@ -11,7 +11,7 @@ export default function IconComponent() {
             <Image style={styles.imageStyles} source={item.image} />
           </View>
         )}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.id.toString()}
         horizontal
         showsHorizontalScrollIndicator={false}
       />
