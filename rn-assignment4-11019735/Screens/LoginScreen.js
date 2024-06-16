@@ -85,11 +85,11 @@ const styles = StyleSheet.create({
   lineStyle: {
     width: 98,
     height: 0.5,
-    color: "#AFB0B6",
+    backgroundColor: "#AFB0B6",
   },
   otherSignInOptions: {
     fontFamily: "sans-serif",
-    fontWeight: 400,
+    fontWeight: "400",
     fontSize: 13,
     color: "#AFB0B6",
   },
@@ -102,15 +102,15 @@ const styles = StyleSheet.create({
   },
   noAccount: {
     fontFamily: "sans-serif",
-    fontWeight: 400,
+    fontWeight: "400",
     fontSize: 14,
     color: "#BDBEC2",
     marginRight: 3,
   },
   register: {
     fontFamily: "sans-serif",
-    fontWeight: 400,
+    fontWeight: "400",
     fontSize: 14,
-    color: "356899",
+    color: "#356899",
   },
 });
