@@ -13,8 +13,7 @@ export default function JobsContainer({ data, styles, isHorizontal, title }) {
           <View style={[styles.cardWrapper, { backgroundColor: item.color }]}>
             <View style={styles.imageAndRoleContainer}>
               <View style={styles.imageContainer}>
-                {" "}
-                <Image style={styles.image} source={item.image} />{" "}
+                <Image style={styles.image} source={item.image} />
               </View>
               <View style={styles.roleAndOrganizationContainer}>
                 <Text style={styles.role}>{item.role}</Text>
@@ -27,7 +26,7 @@ export default function JobsContainer({ data, styles, isHorizontal, title }) {
             </View>
           </View>
         )}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => item.id.toString()}
         horizontal={isHorizontal}
         showsHorizontalScrollIndicator={false}
       />
@@ -45,7 +44,7 @@ const defaultStyles = StyleSheet.create({
     top: -10,
   },
   titleWrapper: {
-    fontFamily: "Sans-serif",
+    fontFamily: "sans-serif",
     fontWeight: "bold",
     fontSize: 16,
     color: "black",
@@ -53,8 +52,8 @@ const defaultStyles = StyleSheet.create({
   seeAllWrapper: {
     width: 42,
     height: 21,
-    fontFamily: "Sans-serif",
-    fontWeight: 400,
+    fontFamily: "sans-serif",
+    fontWeight: "400",
     fontSize: 13,
     color: "#95969D",
   },
